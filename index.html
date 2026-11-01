@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beanrova · Support</title>
+<style>
+:root{--bg:#F6F1EA;--card:#FFFCF8;--ink:#1F1C1A;--ink2:#6E645C;--coffee:#5A3825;--copper:#A8673A;--line:#E7DED4}
+@media (prefers-color-scheme:dark){:root{--bg:#12100E;--card:#1D1916;--ink:#F3ECE4;--ink2:#A89C91;--coffee:#C9A285;--copper:#D8955E;--line:#2E2722}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px}
+h1{font-family:ui-serif,Georgia,serif;color:var(--coffee);margin:8px 0}
+h2{font-size:1.1rem;margin:28px 0 6px;color:var(--coffee)}
+section.lang{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:8px 22px 18px;margin:18px 0}
+a{color:var(--copper)} nav a{margin-left:14px} .muted{color:var(--ink2);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<header><h1>Beanrova</h1><nav><a href="privacy.html">Privacy</a><a href="#zh">中文</a></nav></header>
+
+<section class="lang" id="en">
+<h1 style="font-size:1.6rem">Brew guide for pour-over and espresso</h1>
+<p>Beanrova guides each pour of a pour-over with an animated brewer seen from the side and from above (where to pour, how wide to circle and how fast), scales any recipe to your dose, and records espresso shots with weight, flow and pressure curves. It reads Bluetooth coffee scales and pressure sensors, keeps a bean library and a recipe library with sources, and works fully offline. AI coaching is optional. English and 简体中文.</p>
+<h2>Questions</h2>
+<p><b>Do I need a scale?</b> No. Guided brewing works with the timer alone. To try the live weight features first, open Settings › Devices › Connect simulated scale; simulated readings are labelled as such.</p>
+<p><b>Which devices work?</b> Built-in protocols: BOOKOO scales and Espresso Monitor, 享咖小记 (Coffee Note) protocol scales, Acaia (official SDK), Decent, Felicita, Timemore, Hiroia Jimmy, Eureka Precisa, Varia AKU, Skale, DiFluid Microbalance, Pressensor PRS, Popsicle, Smart Espresso Profiler and Transducer Direct pressure sensors. Each device in the app shows how far it has been tested; a device marked “Untested on hardware” follows the published protocol but has not been tried with the real device yet. Reports are welcome.</p>
+<p><b>How does AI work?</b> On-device AI uses Apple Intelligence where available. Cloud AI uses your own API key with the provider you choose and asks before any data is sent. See the <a href="privacy.html">privacy policy</a>.</p>
+<p><b>Where is my data?</b> On your device only. Settings › Data makes a backup (JSON) or a CSV export. Deleting the app deletes the data.</p>
+<p><b>Are the famous recipes official?</b> They are summarised from the public sources shown in each recipe, for reference. The people and brands named are credited as authors and are not affiliated with Beanrova.</p>
+<h2>Contact</h2>
+<p>Yukun Sun · <a href="mailto:sunyukun9@gmail.com?subject=Beanrova">sunyukun9@gmail.com</a></p>
+</section>
+
+<section class="lang" id="zh" lang="zh-Hans">
+<h1 style="font-size:1.6rem">手冲与意式冲煮助手</h1>
+<p>Beanrova 用侧视和俯视两种动画引导每一段手冲注水（往哪里注、圈多大、绕多快），按你的粉量自动换算任意配方，并用重量、流速和压力曲线记录意式萃取。支持蓝牙咖啡秤和压力计，提供咖啡豆库和带出处的配方库，完全离线可用。AI 指导为可选功能。支持 English 和简体中文。</p>
+<h2>常见问题</h2>
+<p><b>必须有电子秤吗？</b> 不需要。只用计时也能完成引导冲煮。想先体验实时重量功能，可在 设置 › 设备 › 连接模拟电子秤；模拟数据会明确标注。</p>
+<p><b>支持哪些设备？</b> 已内置协议：BOOKOO 电子秤与 Espresso Monitor、享咖小记协议电子秤、Acaia（官方 SDK）、Decent、Felicita、Timemore、Hiroia Jimmy、Eureka Precisa、Varia AKU、Skale、DiFluid Microbalance，以及 Pressensor PRS、Popsicle、Smart Espresso Profiler、Transducer Direct 压力计。App 中每个设备都标明了测试程度；标为“未经实机测试”的设备按公开协议实现，但尚未用实物验证，欢迎反馈。</p>
+<p><b>AI 如何工作？</b> 本机 AI 在支持的设备上使用 Apple 智能。云端 AI 使用你自己的 API Key 和你选择的服务商，发送任何数据前都会先征得同意。详见<a href="privacy.html#zh">隐私政策</a>。</p>
+<p><b>数据保存在哪里？</b> 只在你的设备上。设置 › 数据 可创建备份（JSON）或导出 CSV。删除 App 即删除数据。</p>
+<p><b>知名配方是官方的吗？</b> 配方根据每个配方中注明的公开出处整理，仅供参考。列出的人名和品牌仅表示配方作者，与 Beanrova 没有关联。</p>
+<h2>联系</h2>
+<p>孙宇坤（Yukun Sun）· <a href="mailto:sunyukun9@gmail.com?subject=Beanrova">sunyukun9@gmail.com</a></p>
+</section>
+</main>
+</body>
+</html>
