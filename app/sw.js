@@ -1,5 +1,5 @@
 // Offline cache for the app shell. The build replaces the version so each release refreshes it.
-var CACHE = 'beanrova-lite-0.1.0-1794161955616';
+var CACHE = 'beanrova-lite-0.1.1-1794162475177';
 var FILES = ['./', 'index.html', 'app.js', 'styles.css', 'manifest.webmanifest'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(FILES); }).then(function () { return self.skipWaiting(); }));
